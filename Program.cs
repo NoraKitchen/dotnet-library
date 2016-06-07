@@ -8,11 +8,7 @@ namespace ConsoleApplication
         {
             var library = new Library();
             var currentUser = library.Login();
-
-            // Console.WriteLine("Welcome to the library. Please enter your name.");
-            // var name = Console.ReadLine();
-            // Console.WriteLine("Hello, " + name);
-
+            
             Start(library, currentUser);
 
         }
